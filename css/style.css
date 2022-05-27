@@ -190,7 +190,6 @@ font-size: 2.5em;
 /*----------Footer---------*/
 .cajafooter{
 grid-area: footer;
-background-color: #C44536;
 }
 .cajafooter__contenedor{
 background-color: #3E92CC;
@@ -199,6 +198,10 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
+transition: 0.5s; 
+}
+.cajafooter__contenedor:hover{
+background-color: lightblue;
 }
 .cajafooter ul{
 list-style: none;
@@ -214,11 +217,17 @@ color: white;
 font-weight: bold;
 font-size: 1.2em;
 }
+.cajafooter__lista_redes li a:hover {
+color: #C44536;
+}
 .cajafooter__nav{
 margin-bottom: 10px;
 }
 .cajafooter__nav li{
 padding: 5px;
+}
+.cajafooter__nav li a:hover{
+color: #C44536;
 }
 .cajafooter__nav li a{
 text-decoration: none;
