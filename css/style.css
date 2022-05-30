@@ -48,7 +48,7 @@ font-weight: bold;
 .navbar li a:hover{
 color: #C44536;
 }
-.botonllamada{
+#botonllamada{
 border: 1px solid #C44536;
 border-radius: 5px;
 background: rgb(255, 255, 255);
@@ -60,11 +60,12 @@ padding-left: 12px;
 text-decoration: none;
 margin: 0px 10px;
 }
-.botonllamada:hover{
+#botonllamada:hover{
 background-color: #C44536;
 color: white;
 border: 1px solid  #C44536;
 }
+
 /*-----------------------INDEX--------------------*/
 .cajaprincipalindex{
 grid-area: menu;
